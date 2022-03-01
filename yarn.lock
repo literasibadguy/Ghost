@@ -1998,14 +1998,6 @@
     lodash "^4.17.21"
     uuid "^8.3.2"
 
-"@tryghost/errors@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-1.2.3.tgz#dccfcd09e175e4f0e437039a2653119f84b41e70"
-  integrity sha512-6vd5s2tKX4uQoKjwyP7rICPVY3jj9balc5XLcmwQjUm4yuRAL9AAcpbf1O4AwNN1gs/cN+Wknxjk/LeeIvGbGA==
-  dependencies:
-    lodash "^4.17.21"
-    uuid "^8.3.2"
-
 "@tryghost/express-dynamic-redirects@0.2.5":
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/@tryghost/express-dynamic-redirects/-/express-dynamic-redirects-0.2.5.tgz#3a8ab59cc4fc3dd652058958b61800616ea96ccf"
@@ -2466,7 +2458,7 @@
   dependencies:
     unidecode "^0.1.8"
 
-"@tryghost/tpl@0.1.12":
+"@tryghost/tpl@0.1.12", "@tryghost/tpl@^0.1.12":
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.12.tgz#78e65ba202bcab56acd3582af6de4ce890f29b46"
   integrity sha512-/Xsnn84VhAueWiA7LJRfvRyB9g5MlBXxbZxS1NJTiCIW0eO9T5nm6qJA53Pta1KrhnO6ZVEvThIQVuCe473iQQ==
@@ -2477,13 +2469,6 @@
   version "0.1.11"
   resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.11.tgz#509bc13020f983d2d5e3b76942ab029734054907"
   integrity sha512-c3LhtUhw91fbRW9LvA7gy72v/d10KnGdVrTWv73tt/PBPPf1UCqarVm1zsOV4mYpgiD4i5H2BpA/YYvIB461yQ==
-  dependencies:
-    lodash.template "^4.5.0"
-
-"@tryghost/tpl@^0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.12.tgz#78e65ba202bcab56acd3582af6de4ce890f29b46"
-  integrity sha512-/Xsnn84VhAueWiA7LJRfvRyB9g5MlBXxbZxS1NJTiCIW0eO9T5nm6qJA53Pta1KrhnO6ZVEvThIQVuCe473iQQ==
   dependencies:
     lodash.template "^4.5.0"
 
@@ -2573,10 +2558,10 @@
     extract-zip "2.0.1"
     fs-extra "^9.1.0"
 
-"@tryghost/zip@1.1.19":
-  version "1.1.19"
-  resolved "https://registry.yarnpkg.com/@tryghost/zip/-/zip-1.1.19.tgz#e017a892c946974be0d7ae5b2fffd722ced4a0b5"
-  integrity sha512-OOMeuqy0+Z1rYnoJDYuc2hi2GJotJnowNXyYyRQ09ZiD1m8WORzN/brBj2PE6MjrYkjPlRADHVHS6By+m9kUkw==
+"@tryghost/zip@1.1.20":
+  version "1.1.20"
+  resolved "https://registry.yarnpkg.com/@tryghost/zip/-/zip-1.1.20.tgz#58b214f3ddbef89f2ea966c6d9c8f02c083372ff"
+  integrity sha512-vjk0lZEcFJTFPIjlpkMuy3IHvXOFCxFzTHtTV/nTaE+SSnJy6FktqCOquViloqFT6i7H+nFp2aNx/vW4Rnk4kA==
   dependencies:
     archiver "^4.0.2"
     bluebird "^3.7.2"
