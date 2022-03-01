@@ -1876,10 +1876,10 @@
     "@tryghost/root-utils" "^0.3.8"
     nconf "^0.11.3"
 
-"@tryghost/constants@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@tryghost/constants/-/constants-1.0.1.tgz#9669e619e29028069485770d58e5ba5bb51d462a"
-  integrity sha512-t+d69hkqIb7G4Z0FAc4ZMrsXbK2WNZjNrTLXKg20mqKrfiogACessb2blh84FKTL5m7yQ7tOwLWZxZke4dXzYA==
+"@tryghost/constants@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@tryghost/constants/-/constants-1.0.2.tgz#bf6ca639bdb981a927555e55d59f5120f965d7e4"
+  integrity sha512-M6vm8W+R7oz52KyYLIpewMylgF6Bv2mb4shtJamDmTZLIiWD/xFjW9l0cxWyWQV/QERmHYYERaRIZJzkO/eGUA==
 
 "@tryghost/custom-theme-settings-service@0.3.1":
   version "0.3.1"
@@ -1994,14 +1994,6 @@
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-1.2.1.tgz#1f2e618ec3a0617a6b9c5ac540a202fb46e32559"
   integrity sha512-Ui8iU/ky2HC9+WqOFKDSJyZv0WonrklPugKgWR4QKJ4wIeMXd+uJMqpHLXcN8uMiPVw5Lj9yl8mHq5rjw5dgIQ==
-  dependencies:
-    lodash "^4.17.21"
-    uuid "^8.3.2"
-
-"@tryghost/errors@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-1.2.3.tgz#dccfcd09e175e4f0e437039a2653119f84b41e70"
-  integrity sha512-6vd5s2tKX4uQoKjwyP7rICPVY3jj9balc5XLcmwQjUm4yuRAL9AAcpbf1O4AwNN1gs/cN+Wknxjk/LeeIvGbGA==
   dependencies:
     lodash "^4.17.21"
     uuid "^8.3.2"
@@ -2466,7 +2458,7 @@
   dependencies:
     unidecode "^0.1.8"
 
-"@tryghost/tpl@0.1.12":
+"@tryghost/tpl@0.1.12", "@tryghost/tpl@^0.1.12":
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.12.tgz#78e65ba202bcab56acd3582af6de4ce890f29b46"
   integrity sha512-/Xsnn84VhAueWiA7LJRfvRyB9g5MlBXxbZxS1NJTiCIW0eO9T5nm6qJA53Pta1KrhnO6ZVEvThIQVuCe473iQQ==
@@ -2477,13 +2469,6 @@
   version "0.1.11"
   resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.11.tgz#509bc13020f983d2d5e3b76942ab029734054907"
   integrity sha512-c3LhtUhw91fbRW9LvA7gy72v/d10KnGdVrTWv73tt/PBPPf1UCqarVm1zsOV4mYpgiD4i5H2BpA/YYvIB461yQ==
-  dependencies:
-    lodash.template "^4.5.0"
-
-"@tryghost/tpl@^0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.12.tgz#78e65ba202bcab56acd3582af6de4ce890f29b46"
-  integrity sha512-/Xsnn84VhAueWiA7LJRfvRyB9g5MlBXxbZxS1NJTiCIW0eO9T5nm6qJA53Pta1KrhnO6ZVEvThIQVuCe473iQQ==
   dependencies:
     lodash.template "^4.5.0"
 
