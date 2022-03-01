@@ -1842,10 +1842,10 @@
   resolved "https://registry.yarnpkg.com/@tryghost/bookshelf-transaction-events/-/bookshelf-transaction-events-0.1.10.tgz#485f37c98b8736d7923c346102d0d4a23b97f216"
   integrity sha512-EmhlR3mUVzTDmLv8Ph6gRey32rmX4bl6jr68+EB56MlUSTiLVS2LskZX+zdrK5zcLsc4W384B1RCod3afCf0NQ==
 
-"@tryghost/bootstrap-socket@0.2.16":
-  version "0.2.16"
-  resolved "https://registry.yarnpkg.com/@tryghost/bootstrap-socket/-/bootstrap-socket-0.2.16.tgz#e8e9596591dc83f7e47824c22c814f731be68bf3"
-  integrity sha512-TtcRKjp0MFXUjwT469YdI0lsgjM+TBRhTqPAOKf57nt1CTuAgrAnqEXw2kQ9+OcN0nMiUePhzhVy6J75d8QU5Q==
+"@tryghost/bootstrap-socket@0.2.17":
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/@tryghost/bootstrap-socket/-/bootstrap-socket-0.2.17.tgz#fa26685446b35e6376a9da03d1b828b79f0522d8"
+  integrity sha512-vazuTsmeY2HMxMwwWSGYHIav2pCDNKHWOf/sEoGJDRFhrpgBXarMbqQ2WVyhQ4SjjzhGAfDkrTosQfgtmJNvIw==
   dependencies:
     "@tryghost/logging" "^2.0.0"
 
@@ -1994,14 +1994,6 @@
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-1.2.1.tgz#1f2e618ec3a0617a6b9c5ac540a202fb46e32559"
   integrity sha512-Ui8iU/ky2HC9+WqOFKDSJyZv0WonrklPugKgWR4QKJ4wIeMXd+uJMqpHLXcN8uMiPVw5Lj9yl8mHq5rjw5dgIQ==
-  dependencies:
-    lodash "^4.17.21"
-    uuid "^8.3.2"
-
-"@tryghost/errors@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-1.2.3.tgz#dccfcd09e175e4f0e437039a2653119f84b41e70"
-  integrity sha512-6vd5s2tKX4uQoKjwyP7rICPVY3jj9balc5XLcmwQjUm4yuRAL9AAcpbf1O4AwNN1gs/cN+Wknxjk/LeeIvGbGA==
   dependencies:
     lodash "^4.17.21"
     uuid "^8.3.2"
@@ -2466,7 +2458,7 @@
   dependencies:
     unidecode "^0.1.8"
 
-"@tryghost/tpl@0.1.12":
+"@tryghost/tpl@0.1.12", "@tryghost/tpl@^0.1.12":
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.12.tgz#78e65ba202bcab56acd3582af6de4ce890f29b46"
   integrity sha512-/Xsnn84VhAueWiA7LJRfvRyB9g5MlBXxbZxS1NJTiCIW0eO9T5nm6qJA53Pta1KrhnO6ZVEvThIQVuCe473iQQ==
@@ -2477,13 +2469,6 @@
   version "0.1.11"
   resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.11.tgz#509bc13020f983d2d5e3b76942ab029734054907"
   integrity sha512-c3LhtUhw91fbRW9LvA7gy72v/d10KnGdVrTWv73tt/PBPPf1UCqarVm1zsOV4mYpgiD4i5H2BpA/YYvIB461yQ==
-  dependencies:
-    lodash.template "^4.5.0"
-
-"@tryghost/tpl@^0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.12.tgz#78e65ba202bcab56acd3582af6de4ce890f29b46"
-  integrity sha512-/Xsnn84VhAueWiA7LJRfvRyB9g5MlBXxbZxS1NJTiCIW0eO9T5nm6qJA53Pta1KrhnO6ZVEvThIQVuCe473iQQ==
   dependencies:
     lodash.template "^4.5.0"
 
