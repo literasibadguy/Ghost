@@ -1420,6 +1420,11 @@
   dependencies:
     lodash "^4.17.11"
 
+"@nexes/nql-lang@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@nexes/nql-lang/-/nql-lang-0.1.0.tgz#801a616711461a9c1ee765f8338202742036b056"
+  integrity sha512-p16GyCzvfpW7DoblHdjssACSpavU0phKZKgyhbDCuD1GYru5xbJGfI7AGBaf1grAa31gpChnPKUx2xqnSesQaw==
+
 "@nexes/nql-lang@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@nexes/nql-lang/-/nql-lang-0.0.1.tgz#a13c023873f9bc11b9e4e284449c6cfbeccc8011"
@@ -1433,6 +1438,16 @@
     "@nexes/mongo-knex" "0.5.0"
     "@nexes/mongo-utils" "^0.3.1"
     "@nexes/nql-lang" "^0.0.1"
+    mingo "^2.2.2"
+
+"@nexes/nql@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@nexes/nql/-/nql-0.7.0.tgz#87660dc2b338fdeb0a8514df158004457ae5ef55"
+  integrity sha512-eAevZfmrowJufuxV35N9Sj9xdqetsEL01RODCMBV/5ksiamw+JQWLE+kyJsfdo+OYVej5kBlhv6sYtJx5D+GIA==
+  dependencies:
+    "@nexes/mongo-knex" "0.5.0"
+    "@nexes/mongo-utils" "^0.3.1"
+    "@nexes/nql-lang" "0.1.0"
     mingo "^2.2.2"
 
 "@npmcli/fs@^1.0.0":
@@ -1998,14 +2013,6 @@
     lodash "^4.17.21"
     uuid "^8.3.2"
 
-"@tryghost/errors@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-1.2.3.tgz#dccfcd09e175e4f0e437039a2653119f84b41e70"
-  integrity sha512-6vd5s2tKX4uQoKjwyP7rICPVY3jj9balc5XLcmwQjUm4yuRAL9AAcpbf1O4AwNN1gs/cN+Wknxjk/LeeIvGbGA==
-  dependencies:
-    lodash "^4.17.21"
-    uuid "^8.3.2"
-
 "@tryghost/express-dynamic-redirects@0.2.5":
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/@tryghost/express-dynamic-redirects/-/express-dynamic-redirects-0.2.5.tgz#3a8ab59cc4fc3dd652058958b61800616ea96ccf"
@@ -2466,7 +2473,7 @@
   dependencies:
     unidecode "^0.1.8"
 
-"@tryghost/tpl@0.1.12":
+"@tryghost/tpl@0.1.12", "@tryghost/tpl@^0.1.12":
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.12.tgz#78e65ba202bcab56acd3582af6de4ce890f29b46"
   integrity sha512-/Xsnn84VhAueWiA7LJRfvRyB9g5MlBXxbZxS1NJTiCIW0eO9T5nm6qJA53Pta1KrhnO6ZVEvThIQVuCe473iQQ==
@@ -2477,13 +2484,6 @@
   version "0.1.11"
   resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.11.tgz#509bc13020f983d2d5e3b76942ab029734054907"
   integrity sha512-c3LhtUhw91fbRW9LvA7gy72v/d10KnGdVrTWv73tt/PBPPf1UCqarVm1zsOV4mYpgiD4i5H2BpA/YYvIB461yQ==
-  dependencies:
-    lodash.template "^4.5.0"
-
-"@tryghost/tpl@^0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.12.tgz#78e65ba202bcab56acd3582af6de4ce890f29b46"
-  integrity sha512-/Xsnn84VhAueWiA7LJRfvRyB9g5MlBXxbZxS1NJTiCIW0eO9T5nm6qJA53Pta1KrhnO6ZVEvThIQVuCe473iQQ==
   dependencies:
     lodash.template "^4.5.0"
 
