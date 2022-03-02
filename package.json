@@ -86,7 +86,7 @@
     "@tryghost/members-offers": "0.10.7",
     "@tryghost/members-ssr": "1.0.21",
     "@tryghost/members-stripe-service": "0.8.3",
-    "@tryghost/metrics": "1.0.5",
+    "@tryghost/metrics": "1.0.6",
     "@tryghost/minifier": "0.1.10",
     "@tryghost/mw-error-handler": "0.1.2",
     "@tryghost/mw-session-from-token": "0.1.27",
